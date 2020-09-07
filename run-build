@@ -1,0 +1,7 @@
+#!/bin/sh
+if [ ! -d "./build" ]
+then
+  CC=clang cmake -S . -B build -G "Unix Makefiles"
+fi
+
+cmake --build build
