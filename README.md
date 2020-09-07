@@ -1,6 +1,6 @@
-# cmake c boilerplate
+# cmake c tempalte
 
-Boilerplate for cmake c projects.
+Template repository for cmake c projects.
 
 # Requirements
 
