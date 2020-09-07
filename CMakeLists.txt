@@ -3,7 +3,7 @@ cmake_minimum_required(VERSION 3.18)
 set (CMAKE_C_STANDARD 99)
 
 project(app
-    VERSION 1.0
+    VERSION 0.1
     DESCRIPTION "app description"
     LANGUAGES C)
 
