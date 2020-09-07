@@ -9,3 +9,6 @@ project(myproj
 
 add_executable(myproj
     main.c)
+
+target_link_libraries(myproj
+    m)
