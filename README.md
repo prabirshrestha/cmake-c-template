@@ -29,5 +29,6 @@ scoop install make llvm
 ### Compile
 
 ```cmd
-run-build.cmd
+configure.cmd
+build.cmd
 ```
