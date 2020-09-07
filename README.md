@@ -12,7 +12,7 @@ Requires `cmake`, `clang` and `make`.
 sudo pacman -Sy base-devel clang cmake
 ```
 
-### Makefile with clang
+### Compile
 
 ```bash
 ./run-build
@@ -26,9 +26,8 @@ Requires `cmake`, `clang` and `make`. You can install using [scoop](https://scoo
 scoop install make llvm
 ```
 
-### Makefile with clang
+### Compile
 
-```bash
-cmake -S . -B build -G "Unix Makefiles"
-cmake --build build
+```cmd
+run-build.cmd
 ```
