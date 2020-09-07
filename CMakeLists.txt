@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.18)
 
-message(STATUS "C Compiler executable: ${CMAKE_C_COMPILER}")
+set (CMAKE_C_STANDARD 99)
 
 project(myproj
     VERSION 1.0
