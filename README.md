@@ -1,4 +1,4 @@
-# cmake c tempalte
+# cmake c template
 
 Template repository for cmake c projects.
 
