@@ -10,5 +10,7 @@ project(myproj
 add_executable(myproj
     main.c)
 
-target_link_libraries(myproj
-    m)
+if (NOT WIN32)
+    target_link_libraries(myproj
+        m)
+endif (NOT WIN32)
