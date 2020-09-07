@@ -9,13 +9,13 @@ Template repository for cmake c projects.
 Requires `cmake`, `clang` and `make`.
 
 ```bash
-sudo pacman -Sy clang cmake -G "Unix Makefiles"
+sudo pacman -Sy clang cmake
 ```
 
 ### Makefile with clang
 
 ```bash
-CC=clang cmake -S . -B build
+CC=clang cmake -S . -B build -G "Unix Makefiles"
 cmake --build build
 ```
 
