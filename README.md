@@ -15,7 +15,8 @@ sudo pacman -Sy base-devel clang cmake
 ### Compile
 
 ```bash
-./run-build
+./configure
+./build.sh
 ```
 
 ## Windows

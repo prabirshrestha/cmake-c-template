@@ -1,9 +1,0 @@
-#!/bin/sh
-set -e
-if [ ! -d "./build" ]
-then
-  CC=clang cmake -S . -B build -G "Unix Makefiles"
-  cp ./build/compile_commands.json ./
-fi
-
-cmake --build build
