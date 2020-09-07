@@ -4,6 +4,13 @@ Template repository for cmake c projects.
 
 # Requirements
 
+## Linux
+
+```bash
+CC=clang cmake -S . -B build
+cmake --build build
+```
+
 ## Windows
 
 Requires `clang` and `make`. You can install using [scoop](https://scoop.sh/).
